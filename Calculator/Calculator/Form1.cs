@@ -17,6 +17,8 @@ namespace Calculator
         bool multiple = false;
         bool divide = false;
         bool percent = false;
+        bool memory = false;
+        double memStor = 0;
         public Form1()
         {
             InitializeComponent();
@@ -34,22 +36,48 @@ namespace Calculator
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            memStor = 0;
+            memory = false;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            if (memory)
+            {
+                textBox1.Text = Convert.ToString(memStor);
+            }
+            else
+            {
+                textBox1.Text = "Memory is empty!";
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            if (!memory)
+            {
+                memory = true;
+                memStor = Convert.ToDouble(textBox1.Text);
+                textBox1.Text = "";
+            }
+            else
+            {
+                memStor += Convert.ToDouble(textBox1.Text);
+            }
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            if (!memory)
+            {
+                memory = true;
+                memStor = Convert.ToDouble(textBox1.Text)*(-1);
+                textBox1.Text = "";
+            }
+            else
+            {
+                memStor += Convert.ToDouble(textBox1.Text) * (-1);
+            }
         }
 
         private void button6_Click(object sender, EventArgs e)
