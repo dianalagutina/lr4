@@ -33,7 +33,6 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
@@ -96,7 +95,7 @@
             // 
             this.button4.BackColor = System.Drawing.Color.SkyBlue;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Location = new System.Drawing.Point(176, 83);
+            this.button4.Location = new System.Drawing.Point(105, 121);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(65, 32);
             this.button4.TabIndex = 3;
@@ -116,25 +115,13 @@
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.SkyBlue;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button6.Location = new System.Drawing.Point(105, 121);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(65, 32);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "<--";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
             // button8
             // 
             this.button8.BackColor = System.Drawing.Color.SkyBlue;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button8.Location = new System.Drawing.Point(176, 121);
+            this.button8.Location = new System.Drawing.Point(254, 179);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(65, 32);
+            this.button8.Size = new System.Drawing.Size(85, 55);
             this.button8.TabIndex = 7;
             this.button8.Text = "C";
             this.button8.UseVisualStyleBackColor = false;
@@ -156,9 +143,9 @@
             // 
             this.button10.BackColor = System.Drawing.Color.SkyBlue;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button10.Location = new System.Drawing.Point(254, 179);
+            this.button10.Location = new System.Drawing.Point(302, 240);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(37, 52);
+            this.button10.Size = new System.Drawing.Size(37, 49);
             this.button10.TabIndex = 9;
             this.button10.Text = "/";
             this.button10.UseVisualStyleBackColor = false;
@@ -168,9 +155,9 @@
             // 
             this.button11.BackColor = System.Drawing.Color.SkyBlue;
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button11.Location = new System.Drawing.Point(302, 180);
+            this.button11.Location = new System.Drawing.Point(176, 123);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(37, 50);
+            this.button11.Size = new System.Drawing.Size(65, 30);
             this.button11.TabIndex = 10;
             this.button11.Text = "%";
             this.button11.UseVisualStyleBackColor = false;
@@ -182,7 +169,7 @@
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button12.Location = new System.Drawing.Point(254, 240);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(37, 51);
+            this.button12.Size = new System.Drawing.Size(37, 49);
             this.button12.TabIndex = 11;
             this.button12.Text = "*";
             this.button12.UseVisualStyleBackColor = false;
@@ -320,9 +307,9 @@
             // 
             this.button7.BackColor = System.Drawing.Color.SkyBlue;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button7.Location = new System.Drawing.Point(302, 241);
+            this.button7.Location = new System.Drawing.Point(176, 83);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(37, 50);
+            this.button7.Size = new System.Drawing.Size(65, 32);
             this.button7.TabIndex = 6;
             this.button7.Text = "1/x";
             this.button7.UseVisualStyleBackColor = false;
@@ -390,7 +377,6 @@
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -411,7 +397,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
